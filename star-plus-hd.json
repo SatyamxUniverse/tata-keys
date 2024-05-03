@@ -1,0 +1,10 @@
+{
+  "keys":[
+    {
+      "kty":"oct",
+      "k":"xs1tgBflctvJA1PnC0LrPg",
+      "kid":"TFkaVKT+VhOelfhaX7A91g"
+    }
+  ],
+  "type":"temporary"
+}
