@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SSS1 Live</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+    <style>
+        body {
+            margin: 0px
+        }
+
+        .jwplayer {
+            position: absolute !important
+        }
+
+        .jwplayer.jw-flag-aspect-mode {
+            min-height: 100%;
+            max-height: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <div id="jwplayerDiv"></div>
+    <script type="text/javascript">
+        jwplayer("jwplayerDiv").setup({
+            file: "https://bpcdn.dialog.lk/bpk-tv/Ch121/output/index.mpd", position: 'bottom',
+            "autostart": true,
+            "stretching": "exactfit",
+            "width": "100%",
+            type: "dash",
+            drm: {
+                "clearkey": {
+                    "keyId": "1c6db28d2f3a024669ecfcefb1d99a39",
+                    "key": "cba6f642dac4e2489680631e4b7a0af2"
+                }
+            }
+        });    
+    </script>
+</body>
+
+</html>
